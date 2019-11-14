@@ -1,9 +1,9 @@
-* 将json格式的nTree数据转换成echarts中的关系图
+# 将json格式的nTree数据转换成echarts中的关系图
 
-** 示例json
+## 示例json
 
-```json
-[
+```javascript
+const data = [
   {
     name: "节点1",
     child: [
